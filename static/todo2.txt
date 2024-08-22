@@ -1,0 +1,3 @@
+For search bar : IMPORTANT: Do NOT use this script in bottom of your 
+<body>, instead write this in <head> tag. If you write this in <body>
+ you always get current page as one of the search founds.

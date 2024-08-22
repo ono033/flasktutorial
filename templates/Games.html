@@ -1,0 +1,77 @@
+<body>
+    
+    <div class = " header" >  
+    <h1>  Games </h1>  
+    <input type="text" placeholder="Search..." name="query" class="search-input">
+              
+    <button type = "submit" class = "searchbutton">  </button>                                                  
+  </div>  
+
+  
+  
+  <nav>
+    <!-- navbar -->
+<!--put in links-->
+<ul>
+    <li><a href ="{{ url_for('views.home')}}"> Home </a></li>
+
+  <li class="dropdown">
+    <a href="{{ url_for('views.CV') }}">CV</a>
+    <ul class="dropdown-content">
+        <li><a href="{{ url_for('views.CV')}}"">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+    </ul>
+  </li>
+    
+
+    <li><a href ="{{ url_for('views.Games')}}">Projects </a></li>
+    <li><a href ="{{ url_for('views.GitHub')}}">GitHub </a></li>
+    <li><a href ="{{ url_for('views.Contact')}}">Contact </a></li>
+
+</ul>
+
+  </nav>
+
+
+
+  <h2>
+
+Games coming soon!
+
+  </h2>
+<div>
+
+<a href ="{{ url_for('views.Games/Hangman')}}" Hangman game></a>
+    To be honest creating a games section is quite long but could involve some cool projects... 
+
+ create hangman file c++ and check if it works
+ idea: https://levelup.gitconnected.com/create-a-simple-battleship-web-game-using-flask-pymongo-and-mongodb-2baba714d19a
+ storing session data: https://stackoverflow.com/questions/46673258/how-do-i-store-user-event-info-using-session-in-flask-without-requiring-a-log-in
+</div>
+  <!-- interactable squares with small description. Brings you to abstract?  
+  Change to fit my projects 
+  -->
+  
+  <article class="article">
+    <img src="https://fastly.picsum.photos/id/238/536/354.jpg?hmac=lTwb8DbxMAh_q5cLhPzEQP7gbKMA4MAythQrpcQSm3U" alt="image description" />
+    <div class="article-content">
+      <h1>Article Title</h1>
+      <p>Article description...</p>
+      <a class="u-fill-space" href="https://example.com">
+        <span class="sr-only">Read Article</span>
+      </a>
+      <!-- Optional Visual Button -->
+      <span aria-hidden="true">Read Article</span>
+    </div>
+  </article>
+
+
+
+
+
+
+
+
+
+</body>
