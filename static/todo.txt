@@ -1,0 +1,11 @@
+To Do List
+
+
+Nav bar 
+- Make it same navbar on all pages and not be copy and pasted code?
+
+
+
+
+CV
+- Add back in the 3 links for multiple options for CV 
