@@ -1,2 +1,24 @@
- hello world
+<nav>
+    <!-- navbar -->
+<!--put in links-->
+<ul>
+  <li class="dropdown">
+    <a href="{{ url_for('views.CV') }}">CV</a>
+    <ul class="dropdown-content">
+        <li><a href="{{ url_for('views.CV')}}"">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+    </ul>
+  </li>
+    
+    <li><a href ="{{ url_for('views.Projects')}}">Projects </a></li>
+    <li><a href ="{{ url_for('views.Games')}}">Games </a></li>
+    <li><a href ="{{ url_for('views.GitHub')}}">GitHub </a></li>
+    <li><a href ="{{ url_for('views.Contact')}}">Contact </a></li>
 
+</ul>
+
+
+
+
+  </nav>
